@@ -1,4 +1,4 @@
-# ejemploangularconthreejs
+# Ejemplo de uso de Three js con Angular
 Ejemplo de página web con Angular Material y three js
 Renderizando elementos geométricos básicos, con cambios de color y tamaño a partir de componentes de Angular
 
