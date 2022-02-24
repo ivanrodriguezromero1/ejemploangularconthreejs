@@ -9,11 +9,15 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatSelectModule} from '@angular/material/select';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatSliderModule} from '@angular/material/slider';
+import { RenderComponent } from './componentes/formulario/render/render.component';
+import { TitulosComponent } from './componentes/formulario/titulos/titulos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FormularioComponent
+    FormularioComponent,
+    RenderComponent,
+    TitulosComponent
   ],
   imports: [
     BrowserModule,

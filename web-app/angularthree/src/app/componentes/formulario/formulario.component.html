@@ -1,14 +1,8 @@
-<mat-grid-list cols="2" rowHeight="8:1">
-    <mat-grid-tile class="titles">
-        <h3>Opciones</h3>
-    </mat-grid-tile>
-    <mat-grid-tile class="titles">
-       <h3>Geometría</h3>
-    </mat-grid-tile>
-
-</mat-grid-list>
+<app-titulos></app-titulos>
 <div style="margin-top: 2%;">
-<div class="render" id="renderer"></div>
+<app-render [color]="color" [geometry]="geometry" [refresh]="refresh" [escala]="escala"
+   (newRefresh)="updateRefresh($event)" [geomActual]="geomActual"
+></app-render>
     <div>
         <mat-form-field class="styleOp" appearance="fill">
             <mat-label>Geometría</mat-label>

@@ -1,16 +1,9 @@
-.render{
-    float: right;
-    cursor: pointer;
-    
-}
+
 .styleOp{
     margin-left:5%;
     width: 40%;
 }
-.titles{
-    background-color: rgb(17, 21, 53);
-    color: white;
-}
+
 .tam{
     margin-left:5%;
 }
